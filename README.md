@@ -45,7 +45,13 @@ LTC- -->| B             |   |
 
 ## output example
 
+![putty](docs/putty.png)
+
 ## working model
+
+![photo1](docs/photo1.jpg)
+
+![photo2](docs/photo2.jpg)
 
 ## notes
 
