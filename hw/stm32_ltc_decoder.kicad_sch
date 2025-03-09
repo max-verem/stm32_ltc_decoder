@@ -2438,6 +2438,16 @@
 		)
 		(uuid "ebc36ec4-9116-4b58-90de-52b44fc20d00")
 	)
+	(text "GND\nVCC\nSCL\nSDA"
+		(exclude_from_sim no)
+		(at 245.364 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7ad9896-64e6-4046-8600-1913674c2a5e")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 133.35 116.84 0)
@@ -2842,7 +2852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "OLED"
 			(at 237.49 68.5799 0)
 			(effects
 				(font
