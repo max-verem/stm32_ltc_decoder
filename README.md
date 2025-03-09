@@ -14,6 +14,8 @@ This device used for decoding LTC from VTRs or other sources. Output sent to CDC
 
 ![Schematic](docs/MAX485-Module-Schematic.jpg)
 
+Note: **R7** should be removed
+
 ### other
 * 2N7000
 * Jumper
@@ -21,27 +23,9 @@ This device used for decoding LTC from VTRs or other sources. Output sent to CDC
 
 ## connection diagram
 
-```
-           RS485 Module
-        +---------------+   +----------------------------> [to 5V of STM32 Bluepill]
-        |               |   |
-        |       VCC +5V |---+           2N7000
-        |               |              +------+      JP
-        |            RO |--------------| G    |      |\--> [to PB9 of STM32 Bluepill]
-LTC+ -->| A             |              |    D |------
-        |            DI |   +----------| S    |      |/--> [to PA0 of STM32 Bluepill]
-        |               |   |          +------+
-        |           /RE |---+
-LTC- -->| B             |   |
-        |            DE |---+
-        |               |   |
-        |           GND |---+----------------------------> [to GND of STM32 Bluepill]
-        +---------------+   |
-                            |
-                           ---
-                           \ /
-                            -
-```
+![Schematic](docs/schematic.png)
+
+![Perf board](docs/pcb.png)
 
 ## output example
 
